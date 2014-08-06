@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	font-family: serif;
+}
+
+.graph {
+	position: relative;
+}
+
+.graph-svg {
+	margin: auto;
+	left: 0;
+	right: 0;
+	display: block;
+}
+			
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.x.axis line, .x.axis path {
+  fill: none;
+  stroke: #000;
+}
+
+.y.axis line, .y.axis path {
+  fill: none;
+  stroke: #000;
+}
+
+.line {
+	fill: none;
+	stroke-width: 3px;
+}
+
+.area {
+	fill-opacity: 0.5;
+	stroke: none;
+}
+
+.hover-rect {
+	fill: #000;
+	fill-opacity: 0.05;
+	stroke: none;
+}
+.hover-line {
+	fill: none;
+	stroke-width: 1px;
+	stroke: #000;
+}
+.hover-box {
+	margin: 20px 0;
+}
+.fill-rect {
+	fill: #666;
+	opacity: 0.5;
+}
